@@ -61,7 +61,6 @@ struct ieee80211_radiotap_vendor_namespaces {
  * Describes the radiotap parser state. Fields prefixed with an underscore
  * must not be used by users of the parser, only by the parser internally.
  */
-
 struct ieee80211_radiotap_iterator {
 	struct ieee80211_radiotap_header *_rtheader;
 	const struct ieee80211_radiotap_vendor_namespaces *_vns;
